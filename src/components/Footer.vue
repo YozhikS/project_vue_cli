@@ -3,7 +3,7 @@
     <div class="footer_up center">
       <div class="abaut">
         <a href="#" class="logo">
-          <img class="logo__img" src="../src/assets/imgs/logo.png" alt="logo">
+          <img class="logo__img" src="../assets/imgs/logo.png" alt="logo">
           <h1 class="logo__img_h1">BRAN<span class="siteColor">D</span></h1>
         </a>
         <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally

@@ -4,7 +4,7 @@ const cartRouter = require('./cartRouter');
 const app = express();
 
 app.use(express.json());
-app.use('/', express.static('./public'));
+app.use('/', express.static('./dist'));
 app.use('/api/cart', cartRouter);
 
 app.get('/api/products', (req, res) => {
@@ -18,7 +18,7 @@ app.get('/api/products', (req, res) => {
   });
 });
 
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`Listening ${port} port`);
 });

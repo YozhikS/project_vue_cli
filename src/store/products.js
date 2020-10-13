@@ -25,9 +25,9 @@ export default {
     },
     getProducts({ commit }, url) {
       return axios.get(url)
-        .then((data) => {
-          commit('SET_PRODUCTS_DATA', data);
-          return data;
+        .then((resault) => {
+          commit('SET_PRODUCTS_DATA', resault.data);
+          return resault.data;
         })
         .catch((error) =>
           // this.$refs.error.setError(error);

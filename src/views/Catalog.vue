@@ -104,32 +104,29 @@
           </div>
         </div>
         <div class="catalog__product">
-          <div class="product_tovar_cart" id="catalogOfCatalog">
-
-
-          </div>
+          <Products class="product_tovar_cart" id="catalogOfCatalog"/>
         </div>
       </content>
     </div>
     <div class="feature_box_banner center">
-      <artical class="feature_box_banner_delivery">
-        <img class="feature_box_banner_img" src="../src/assets/imgs/delivery.png" alt="">
+      <section class="feature_box_banner_delivery">
+        <img class="feature_box_banner_img" src="@/assets/imgs/delivery.png" alt="">
         <h1 class="feature_box_banner_h1">Free Delivery</h1>
         <p class="feature_box_banner_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion
           with extensive models.</p>
-      </artical>
-      <artical class="feature_box_banner_delivery">
-        <img class="feature_box_banner_img" src="../src/assets/imgs//sales.png" alt="">
+      </section>
+      <section class="feature_box_banner_delivery">
+        <img class="feature_box_banner_img" src="@/assets/imgs/sales.png" alt="">
         <h1 class="feature_box_banner_h1">Sales &amp; discounts</h1>
         <p class="feature_box_banner_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion
           with extensive models.</p>
-      </artical>
-      <artical class="feature_box_banner_delivery">
-        <img class="feature_box_banner_img" src="../src/assets/imgs/quality.png" alt="">
+      </section>
+      <section class="feature_box_banner_delivery">
+        <img class="feature_box_banner_img" src="@/assets/imgs/quality.png" alt="">
         <h1 class="feature_box_banner_h1">Quality assurance</h1>
         <p class="feature_box_banner_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion
           with extensive models.</p>
-      </artical>
+      </section>
     </div>
     <Subscribe/>
     <Footer/>
@@ -138,6 +135,7 @@
 
 <script>
 import Breadcrumb from '@/components/Breadcrumb';
+import Products from '@/views/Products';
 import Subscribe from '@/components/Subscribe';
 import Footer from '@/components/Footer';
 
@@ -145,6 +143,7 @@ export default {
   name: 'Catalog',
   components: {
     Breadcrumb,
+    Products,
     Subscribe,
     Footer,
   },

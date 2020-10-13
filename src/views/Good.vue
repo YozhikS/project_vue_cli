@@ -6,7 +6,7 @@
       <div v-else-if="goodData" class="singlePage__slider">
         <div class="slider__pagination slider__pagination_left"><a href="#"><i class="fas fa-angle-left"></i></a>
         </div>
-        <img class="singlePage__slider_img" src="../src/assets/imgs/slide_img.png" alt="">
+        <img class="singlePage__slider_img" src="../assets/imgs/slide_img.png" alt="">
         <div class="slider__pagination slider__pagination_right"><a href="#"> <i class="fas fa-angle-right"></i></a>
         </div>
       </div>

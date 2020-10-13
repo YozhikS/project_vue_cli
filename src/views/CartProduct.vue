@@ -13,7 +13,7 @@
       <div class="sc_product">
         <artical class="sc_product_cart">
           <a href="single_page.html" class="sc_product_cart_a">
-            <img src="../src/assets/imgs/sc_1.png" alt="" class="sc_product_cart_a_img">
+            <img src="https://raw.githubusercontent.com/YozhikS/static/master/img/sc_1.png" alt="" class="sc_product_cart_a_img">
           </a>
           <div class="sc_product_cart_info">
             <a href="single_page.html" class="sc_product_cart_info_h1">Mango People T-shirt</a>
@@ -28,7 +28,7 @@
         </artical>
         <artical class="sc_product_cart">
           <a href="single_page.html" class="sc_product_cart_a">
-            <img src="../src/assets/imgs/sc_2.png" alt="" class="sc_product_cart_img">
+            <img src="https://raw.githubusercontent.com/YozhikS/static/master/img/sc_2.png" alt="" class="sc_product_cart_img">
           </a>
           <div class="sc_product_cart_info">
             <a href="single_page.html" class="sc_product_cart_info_h1">Mango People T-shirt</a>
@@ -43,7 +43,7 @@
         </artical>
         <artical class="sc_product_cart">
           <a href="single_page.html" class="sc_product_cart_a">
-            <img src="../src/assets/imgs/sc_3.png" alt="" class="sc_product_cart_img">
+            <img src="https://raw.githubusercontent.com/YozhikS/static/master/img/sc_3.png" alt="" class="sc_product_cart_img">
           </a>
           <div class="sc_product_cart_info">
             <a href="single_page.html" class="sc_product_cart_info_h1">Mango People T-shirt</a>
